@@ -77,7 +77,40 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">SIGN IN</a></li>
+		<li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-shopping-cart"></span>CART<span class="badge">0</span></a>
+			<div class="dropdown-menu" style="width:400px">
+				<div class="panel panel-success">
+					<div class="panel panel-heading">
+						<div class="row">
+							<div class="col-md-3">No.</div>
+							<div class="col-md-3">Product image</div>
+							<div class="col-md-3">Product name</div>
+							<div class="col-md-3">Price $</div>
+						</div>
+					</div>
+					<div class="panel panel-body"></div>
+					<div class="panel panel-footer"></div>
+				</div>
+			</div>
+		</li>
+        <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">SIGN IN</a>
+			<ul class="dropdown-menu">
+				<div style="width:300px;">
+					<div class="panel panel-primary">
+						<div class="panel-heading">Login</div>
+						<div class="panel-heading">
+							<label for="email">Email</label>
+							<input type="email" class="form-control" id="email" required/>
+							<label for="email">Password</label>
+							<input type="email" class="form-control" id="password" required/>
+							<p><br/></p>
+							<a href="#" style="color:white; list-style:none;">Forgotten password</a><input type="submit" class="btn btn-success" style="float:right;" id="login" value="Login">
+						</div>
+						<div class="panel-footer" id="e_msg"></div>
+					</div>	
+				</div>
+			</ul>
+		</li>
         
       </ul>
     </div><!-- /.navbar-collapse -->
@@ -128,36 +161,15 @@
 		</a>
 		</div>
 		<div class="clearfix" style="margin-bottom:20px;"></div>
-	<div class="container">
+	
 	<!-- End Slide Show -->
-	 <div class="row marketing">
-		<div class="col-md-4 col-sm-4 col-xs-12">
-		  <img src="images/DePaul.jpg" alt="marketing01" class="img-circle">
-		  <h2>Title Hereee</h2>
-		  <p>hello hello hello</p>
-		  <a href="#" class="btn btn-default">Details...</a>
-		</div>
-		<div class="col-md-4 col-sm-4 col-xs-12">
-		  <img src="images/DePaul.jpg" alt="marketing01" class="img-circle">
-		  <h2>Title Hereee</h2>
-		  <p>hello hello hello</p>
-		  <a href="#" class="btn btn-default">Details...</a>
-		</div>
-		<div class="col-md-4 col-sm-4 col-xs-12">
-		  <img src="images/DePaul.jpg" alt="marketing01" class="img-circle">
-		  <h2>Title Hereee</h2>
-		  <p>hello hello hello</p>
-		  <a href="#" class="btn btn-default">Details...</a>
-		</div>
-	 </div>
+	 
 	<!-- Marketing -->
 	
 	<!-- Product Thumbnail -->
-	<div class="row">
 	
-	</div>
 	<!-- End Product Thumbnail -->
-	</div>
+	
 	
 	<!-- End Marketing -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
